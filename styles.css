@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    text-align: center;
+    transition: background 0.3s, color 0.3s;
+}
+.task-container {
+    max-width: 400px;
+    margin: auto;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #f4f4f4;
+    margin: 5px 0;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+.dark-mode {
+    background: #121212;
+    color: white;
+}
+.dark-mode li {
+    background: #333;
+}
+button {
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    margin: 5px;
+    border-radius: 5px;
+}
+.delete-btn {
+    background: red;
+    color: white;
+}
+.edit-btn {
+    background: blue;
+    color: white;
+}
+.filter-btn {
+    background: gray;
+    color: white;
+}
+.dark-mode .delete-btn {
+    background: #d9534f;
+}
+.dark-mode .edit-btn {
+    background: #5bc0de;
+}
